@@ -1,5 +1,5 @@
 # Sudoku Solver
-This is a sudoku solver using depth first search and dynamic programming. 
+This is a [sudoku](https://en.wikipedia.org/wiki/Sudoku) solver using depth first search and dynamic programming. 
 
 Requires Python 3. 
 
