@@ -10,8 +10,7 @@ class Trie:
         """
         Initialize your data structure here.
         """
-        self.root = TrieNode()
-        
+        self.root = TrieNode()  
 
     def insert(self, word: str):
         """
@@ -33,7 +32,6 @@ class Trie:
                 return False
         return curr.is_word
         
-
     def startsWith(self, prefix: str):
         """
         Returns if there is any word in the trie that starts with the given prefix.
@@ -45,7 +43,6 @@ class Trie:
                 return False
         return True
     
-
 # Your Trie object will be instantiated and called as such:
 # obj = Trie()
 # obj.insert(word)
