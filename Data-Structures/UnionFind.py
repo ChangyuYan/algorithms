@@ -4,7 +4,7 @@ class UnionFindSet():
         self.parents = [i for i in range(n + 1)] 
     
     # Merge sets that contains u and v
-    # Return True if merged, False if u and v are alread in one set
+    # Return True if merged, False if u and v are already in one set
     def Union(self, u, v):
         pu = self.Find(u)
         pv = self.Find(v)
